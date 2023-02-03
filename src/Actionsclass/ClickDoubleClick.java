@@ -10,7 +10,7 @@ public class ClickDoubleClick {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-System.setProperty("webdriver.chrome.driver", "C:/Users/dell/DNYANESHWAR/Desktop/software/NEW/chromedriver.exe");
+System.setProperty("webdriver.chrome.driver", "E:/software/chromedriver.exe/");
 		
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://uitestpractice.com/students/actions");

@@ -12,7 +12,7 @@ public class DataProviderDemo2 {
 	public WebDriver driver;
 	@BeforeMethod
 	public void launchBrowser() {
-		System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe/");
+		System.setProperty("webdriver.chrome.driver", "E:/shree/chromedriver.exe/");
 		driver = new ChromeDriver();
 		
 		driver.get("https://www.facebook.com/");

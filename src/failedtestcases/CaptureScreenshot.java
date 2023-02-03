@@ -9,7 +9,7 @@ public class CaptureScreenshot extends MainTest{
 	@Test
 	public  void captureScreenshot() throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "E:/software/chromedriver_win32/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:/shree/chromedriver.exe/");
 		
 		driver = new ChromeDriver();
 		

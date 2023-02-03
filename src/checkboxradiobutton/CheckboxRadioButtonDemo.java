@@ -11,7 +11,7 @@ public class CheckboxRadioButtonDemo {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "E:/software/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:/shree/chromedriver.exe/");
 		
 		WebDriver driver = new ChromeDriver();
 		

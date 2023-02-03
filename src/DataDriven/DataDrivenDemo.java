@@ -14,7 +14,7 @@ public class DataDrivenDemo {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
 		
-		System.setProperty("webdriver.chrome.driver","C:/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","E:/shree/chromedriver.exe/");
 		
 		WebDriver driver = new ChromeDriver();
 		

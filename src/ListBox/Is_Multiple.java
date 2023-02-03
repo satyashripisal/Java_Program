@@ -10,7 +10,7 @@ public class Is_Multiple {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver",  "C:/chromedriver.exe/");
+		System.setProperty("webdriver.chrome.driver",  "E:/shree/chromedriver.exe/");
 		
 		WebDriver driver = new ChromeDriver();
 		

@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Iframe_1 {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:/Users/dell/DNYANESHWAR/Desktop/software/NEW/chromedriver.exe/");
+		System.setProperty("webdriver.chrome.driver", "E:/shree/chromedriver.exe/");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.selenium.dev/selenium/docs/api/java/index.html?org/openqa/selenium/package-summary.html");
 		driver.manage().window().maximize();

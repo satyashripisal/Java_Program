@@ -7,7 +7,7 @@ public class CountCharacter {
 		String s = "I am Satyashri";
 		int count = 0;
 		for(int i=0;i<s.length();i++) {
-		//	if(s.charAt(i)!= '') {
+			//if(s.charAt(i)!= '') {
 				count++;
 			}
 			//Displays the total number of characters present in the given string    

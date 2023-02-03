@@ -9,7 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 public class ContextClick {
 
 	public static void main(String[] args) throws InterruptedException {
-System.setProperty("webdriver.chrome.driver", "C:/chromedriver.exe");
+System.setProperty("webdriver.chrome.driver", "E:/software/chromedriver.exe/");
 		
 		WebDriver driver = new ChromeDriver();
 		

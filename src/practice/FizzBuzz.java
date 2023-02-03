@@ -11,10 +11,10 @@ public class FizzBuzz {
                 System.out.println("FizzBuzz");
             }
             else{
-                System.out.println("Fizz");
+                System.out.println("Fizz");//if n is not divided by 5
             }
         }else{
-            System.out.println("Buzz");
+            System.out.println("Buzz");//if n is not divided by 3
         }
         
     }

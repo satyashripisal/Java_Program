@@ -13,6 +13,6 @@ public static void main(String args[])
 System.out.println("main method invoked"); //code 
 main(6); 
 main('A');
-Overload.main(6);
+Overload.main(6);//because of static method it called through class name
 }  
 }  
