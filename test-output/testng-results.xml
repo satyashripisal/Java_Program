@@ -1,33 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12014" started-at="2023-01-27T22:45:47 IST" finished-at="2023-01-27T22:45:59 IST">
+  <suite name="Default suite" duration-ms="122" started-at="2023-02-07T15:20:57 IST" finished-at="2023-02-07T15:20:57 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12014" started-at="2023-01-27T22:45:47 IST" finished-at="2023-01-27T22:45:59 IST">
-      <class name="dataproviderdemo.DataProviderDemo2">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:dataproviderdemo.DataProviderDemo2@1a8a8f7c]" name="launchBrowser" is-config="true" duration-ms="10417" started-at="2023-01-27T22:45:47 IST" finished-at="2023-01-27T22:45:58 IST">
+    <test name="Default test" duration-ms="122" started-at="2023-02-07T15:20:57 IST" finished-at="2023-02-07T15:20:57 IST">
+      <class name="TestNGBeforeAfterTest.Demo1">
+        <test-method status="PASS" signature="browserOpen()[pri:0, instance:TestNGBeforeAfterTest.Demo1@2173f6d9]" name="browserOpen" is-config="true" duration-ms="20" started-at="2023-02-07T15:20:57 IST" finished-at="2023-02-07T15:20:57 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:dataproviderdemo.DataProviderDemo2@1a8a8f7c]" name="login" duration-ms="1515" started-at="2023-01-27T22:45:58 IST" data-provider="TestData" finished-at="2023-01-27T22:45:59 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[s ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ t]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- browserOpen -->
+        <test-method status="PASS" signature="login()[pri:0, instance:TestNGBeforeAfterTest.Demo1@2173f6d9]" name="login" is-config="true" duration-ms="1" started-at="2023-02-07T15:20:57 IST" finished-at="2023-02-07T15:20:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-      </class> <!-- dataproviderdemo.DataProviderDemo2 -->
+        <test-method status="PASS" signature="addCurrency()[pri:0, instance:TestNGBeforeAfterTest.Demo1@2173f6d9]" name="addCurrency" duration-ms="17" started-at="2023-02-07T15:20:57 IST" finished-at="2023-02-07T15:20:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCurrency -->
+        <test-method status="PASS" signature="addProduct()[pri:0, instance:TestNGBeforeAfterTest.Demo1@2173f6d9]" name="addProduct" duration-ms="3" started-at="2023-02-07T15:20:57 IST" finished-at="2023-02-07T15:20:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method status="PASS" signature="addVendor()[pri:0, instance:TestNGBeforeAfterTest.Demo1@2173f6d9]" name="addVendor" duration-ms="17" started-at="2023-02-07T15:20:57 IST" finished-at="2023-02-07T15:20:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addVendor -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestNGBeforeAfterTest.Demo1@2173f6d9]" name="logout" is-config="true" duration-ms="2" started-at="2023-02-07T15:20:57 IST" finished-at="2023-02-07T15:20:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:TestNGBeforeAfterTest.Demo1@2173f6d9]" name="browserClose" is-config="true" duration-ms="0" started-at="2023-02-07T15:20:57 IST" finished-at="2023-02-07T15:20:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- TestNGBeforeAfterTest.Demo1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

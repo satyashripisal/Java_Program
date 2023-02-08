@@ -7,10 +7,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Autosuggestion1 {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe/");
+		//System.setProperty("webdriver.chrome.driver", "E:/DNYANESHWAR/chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://www.google.com/");
@@ -22,10 +25,10 @@ public class Autosuggestion1 {
 	    System.out.println(num);
 	    
 	   // System.out.println(a.get(num-8).getText());
-	    for(int i=0;i<=num-1;i++) {
+	   /* for(int i=0;i<=num-1;i++) {
 	    	String s = a.get(i).getText();
 	    	System.out.println(s);
-	    }
+	    }*/
 		
 
 	}

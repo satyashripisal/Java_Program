@@ -6,12 +6,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class AlertPopupDemo {
 
 	public static void main(String[] args) throws InterruptedException {
 	
-		System.setProperty("webdriver.chrome.driver", "C:/chromedriver.exe");
-		
+		//System.setProperty("webdriver.chrome.driver", "C:/chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("http://demo.guru99.com/test/delete_customer.php");
